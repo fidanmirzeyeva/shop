@@ -1,0 +1,33 @@
+.sect2_hero{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.sect2_hero_text{
+    padding-top: 60px;
+    text-align: center;
+    span{
+       font-size: 18px;
+       opacity: 0.8;
+    }
+   h3{
+    font-size: 45px;
+   }
+}
+.sect2_hero_cards{
+    display: flex;
+  
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+}
+.left{
+    display: flex;
+    gap: 26px;
+    flex-direction: column;
+}
+.top{
+    gap: 50px;
+    display: flex;
+}
